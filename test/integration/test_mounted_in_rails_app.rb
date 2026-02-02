@@ -2,7 +2,7 @@ require 'test_helper'
 require 'support/rails_app'
 require 'support/delayed_job_fake'
 
-class TestMountedInRailsApp < MiniTest::Test
+class TestMountedInRailsApp < Minitest::Test
   include Rack::Test::Methods
 
   def app
